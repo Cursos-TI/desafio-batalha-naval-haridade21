@@ -5,7 +5,6 @@
 #define AGUA 0
 #define EFEITO 5
 
-// Função para inicializar o tabuleiro com água (0)
 void inicializarTabuleiro(int tabuleiro[LINHA][LINHA]) {
     for (int i = 0; i < LINHA; i++) {
         for (int j = 0; j < LINHA; j++) {
@@ -13,8 +12,6 @@ void inicializarTabuleiro(int tabuleiro[LINHA][LINHA]) {
         }
     }
 }
-
-// Função para imprimir o tabuleiro
 void imprimirTabuleiro(int tabuleiro[LINHA][LINHA]) {
     for (int i = 0; i < LINHA; i++) {
         for (int j = 0; j < LINHA; j++) {
